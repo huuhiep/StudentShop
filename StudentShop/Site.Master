@@ -14,7 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Content/my-styles.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -71,7 +71,7 @@ BorderStyle="None" />
 <asp:ListView ID="categoryList"
 ItemType="StudentShop.Models.Category" runat="server"
 SelectMethod="GetCategories" >
-<ItemTemplate><b style="font-size: large; font-style: normal">
+<ItemTemplate><b style="font-size: large; font-style: normal" class="nav-TypeBookList">
 <a href="/BookList.aspx?id=<%#: Item.CategoryID %>">
 <%#: Item.CategoryName %>
 </a>
