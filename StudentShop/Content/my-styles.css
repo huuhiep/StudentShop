@@ -1,0 +1,13 @@
+﻿body {
+    background-image: url('../Images/sch2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: palevioletred;
+    text-align:center;
+}
+
+a {
+    
+    color: blueviolet;
+}
