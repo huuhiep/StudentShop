@@ -54,6 +54,7 @@
                         <li><a runat="server" href="~/About">Giới Thiệu</a></li>
                         <li><a runat="server" href="~/Contact">Liên Hệ</a></li>
                         <li><a runat="server" href="~/BookList">Danh mục</a></li>
+                        <li><a runat="server" href="~/ShoppingCart" ID="cartCount">&nbsp;</a></li>
                     </ul>
                 </div>
             </div>
