@@ -29,7 +29,7 @@ namespace StudentShop
                 {
                     LabelTotalText.Text = "";
                     lblTotal.Text = "";
-                    ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
+                    ShoppingCartTitle.InnerText = "Giỏ Hàng Trống";
                     UpdateBtn.Visible = false;
                 }
             }

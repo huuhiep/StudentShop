@@ -10,23 +10,23 @@ SelectMethod ="GetShoppingCartItems"
 CssClass="table table-striped table-bordered" >
 <Columns><asp:BoundField DataField="BookID" HeaderText="ID"
 SortExpression="BookID" />
-<asp:BoundField DataField="Book.BookName" HeaderText="Name" />
-<asp:BoundField DataField="Book.UnitPrice" HeaderText="Price (each)"
+<asp:BoundField DataField="Book.BookName" HeaderText="Tên" />
+<asp:BoundField DataField="Book.UnitPrice" HeaderText="Đơn giá"
 DataFormatString="{0:c}"/>
-<asp:TemplateField HeaderText="Quantity">
+<asp:TemplateField HeaderText="Số Lượng">
 <ItemTemplate>
 <asp:TextBox ID="PurchaseQuantity" Width="40"
 runat="server" Text="<%#: Item.Quantity %>"></asp:TextBox>
 </ItemTemplate>
 </asp:TemplateField>
-<asp:TemplateField HeaderText="Item Total">
+<asp:TemplateField HeaderText="Tổng giá">
 <ItemTemplate>
 <%#: String.Format("{0:c}",
 ((Convert.ToDouble(Item.Quantity)) *
 Convert.ToDouble(Item.Book.UnitPrice)))%>
 </ItemTemplate>
 </asp:TemplateField>
-<asp:TemplateField HeaderText="Remove Item">
+<asp:TemplateField HeaderText="Hủy">
 <ItemTemplate>
 <asp:CheckBox id="Remove" runat="server"></asp:CheckBox>
 </ItemTemplate>
@@ -36,7 +36,7 @@ Convert.ToDouble(Item.Book.UnitPrice)))%>
 <div>
 <p></p>
 <strong>
-<asp:Label ID="LabelTotalText" runat="server" Text="Order Total:"></asp:Label>
+<asp:Label ID="LabelTotalText" runat="server" Text="Tổng Thanh Toán:"></asp:Label>
 <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
 </strong>
 </div>
@@ -44,7 +44,7 @@ Convert.ToDouble(Item.Book.UnitPrice)))%>
     <table>
 <tr>
 <td>
-<asp:Button ID="UpdateBtn" runat="server" Text="Update"
+<asp:Button ID="UpdateBtn" runat="server" Text="Cập Nhật"
 OnClick="UpdateBtn_Click" />
 </td>
 </tr>
