@@ -47,6 +47,11 @@ width="150" height="225" style="border:solid" /></a>
 <b>Giá: </b><%#:String.Format("{0:g} đồng",Item.UnitPrice)%>
 </span>
     <br />
+    <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
+<span>
+    <b>Add To Cart<b>
+</span>
+</a>
 </td>
 </tr>
 <tr>
