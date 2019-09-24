@@ -27,7 +27,7 @@ namespace StudentShop
         {
             using (ShoppingCartAction usersShoppingCart = new ShoppingCartAction())
             {
-                string cartStr = string.Format("Cart ({0})",
+                string cartStr = string.Format("Giỏ Hàng ({0})",
                 usersShoppingCart.GetCount());
                 cartCount.InnerText = cartStr;
             }

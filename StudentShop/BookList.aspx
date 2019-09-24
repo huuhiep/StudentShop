@@ -49,7 +49,7 @@ width="150" height="225" style="border:solid" /></a>
     <br />
     <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
 <span>
-    <b>Add To Cart<b>
+    <b> + Thêm vào giỏ hàng<b>
 </span>
 </a>
 </td>

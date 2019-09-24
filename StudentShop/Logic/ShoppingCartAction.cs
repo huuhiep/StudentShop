@@ -204,7 +204,7 @@ CartItemUpdates)
                           select (int?)cartItems.Quantity).Sum();
             // Trả về 0 nếu rỗng
             return count ?? 0;
-            return 0;
+            //return 0;
         }
         public struct ShoppingCartUpdates
         {
