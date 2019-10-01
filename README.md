@@ -1,4 +1,22 @@
 # StudentShop
+
+## Cơ sở dữ liệu StudentShop:
+
+## Bảng Sản Phẩm:
+<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/71500739_475128396422877_539362710291218432_n.jpg?_nc_cat=107&_nc_oc=AQliG03jqmd6KdFBuy8jGHzMbCqrFTgQyd-TU6K5gHPPhWhG6IkxuE90T0XVBOlkg_M&_nc_ht=scontent.fdad2-1.fna&oh=4355f46ff33e3d31b7916f6f48aba984&oe=5E373512">
+
+## Bảng Loại Sản Phẩm:
+<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/71309142_929011780830917_5567087603498352640_n.jpg?_nc_cat=111&_nc_oc=AQlJ_x_taGjpwUXe9KF_7dvkOElm2JEQpE5QR8oeGpORA2lbzu-g8bpzk4T-doMdksY&_nc_ht=scontent.fdad2-1.fna&oh=0a88540dde7574598106d82425a4a032&oe=5E35A26A">
+
+## Dữ liệu bảng Sản Phẩm:
+<img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/71311091_841720409555429_3289092148619640832_n.jpg?_nc_cat=106&_nc_oc=AQm3crrdR9X0hbrVbyTS0QmOB3E5I50LfpDlvddWHxBroRhb_bVrSHFkomzt2XY_39c&_nc_ht=scontent.fdad1-1.fna&oh=83d78890c8654d964bd359a4d7b78a6b&oe=5E248E63">
+
+## Dữ liệu bảng Loại Sản Phẩm:
+<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/71594509_390090185006212_5724133589482733568_n.jpg?_nc_cat=101&_nc_oc=AQkifb6lOv8Nt_E3aaiMXAdi1T6UBvwd0SQeIgJnekpiHEGQDNNW26L009GwO_9sA3A&_nc_ht=scontent.fdad2-1.fna&oh=a38e811f6f000d28d3374c676f4e1ca3&oe=5E349A21">
+
+## Quan Hệ :
+<img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/71272840_390902451832082_5878180515768434688_n.jpg?_nc_cat=108&_nc_oc=AQkTj0lOzUAs0tqG_nbcXKX1OXuSu70AanPnFXcGE9W0AkZJFgAQ2_o6D-z2MK1D4FA&_nc_ht=scontent.fdad2-1.fna&oh=56aadd44a3b6dd32d9cb2e3dcc633924&oe=5E26EF4D">
+
 ## Trang Chủ của Shop:
 <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/70198171_418903878980796_1798579132146122752_n.png?_nc_cat=105&_nc_oc=AQlOTy4oo438BfuXvFaomhV1UYg3487FU6mcHbCLKVPvFJieHJxwWXw9MiwVhSCFuvA&_nc_ht=scontent.fdad1-1.fna&oh=042296b00bc559e7f0b6f5794135942a&oe=5DF84345">
 
