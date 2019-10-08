@@ -16,10 +16,10 @@ namespace StudentShop
 
         }
 
-        public IQueryable<Category> GetCategories()
+        public IQueryable<LOAISANPHAM> GetLOAISANPHAMs()
         {
-            var _db = new StudentShop.Models.BookContext();
-            IQueryable<Category> query = _db.Categories;
+            var _db = new StudentShop.Models.SANPHAM_CT();
+            IQueryable<LOAISANPHAM> query = _db.LOAISANPHAMs;
             return query;
         }
 

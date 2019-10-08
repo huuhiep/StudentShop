@@ -144,7 +144,6 @@ E:\DANGHUUHIEP\VS\StudentShop\StudentShop\bin\Antlr3.Runtime.pdb
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\bin\Microsoft.AspNet.FriendlyUrls.xml
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\obj\Debug\StudentShop.csprojAssemblyReference.cache
-E:\DANGHUUHIEP\VS\StudentShop\StudentShop\obj\Debug\StudentShop.csproj.CoreCompileInputs.cache
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\obj\Debug\StudentShop.csproj.CopyComplete
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\obj\Debug\StudentShop.dll
 E:\DANGHUUHIEP\VS\StudentShop\StudentShop\obj\Debug\StudentShop.pdb

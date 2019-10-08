@@ -53,7 +53,7 @@
                         <li><a runat="server" href="~/">Trang Chủ</a></li>
                         <li><a runat="server" href="~/About">Giới Thiệu</a></li>
                         <li><a runat="server" href="~/Contact">Liên Hệ</a></li>
-                        <li><a runat="server" href="~/BookList">Danh mục</a></li>
+                        <li><a runat="server" href="~/DANHMUCSP">Danh mục</a></li>
                         <li><a runat="server" href="~/ShoppingCart" ID="cartCount">&nbsp;</a></li>
                     </ul>
                 </div>
@@ -70,11 +70,11 @@ BorderStyle="None" />
 
         <div id="CategoryMenu" style="text-align: center">
 <asp:ListView ID="categoryList"
-ItemType="StudentShop.Models.Category" runat="server"
-SelectMethod="GetCategories" >
+ItemType="StudentShop.Models.LOAISANPHAM" runat="server"
+SelectMethod="GetLOAISANPHAMs" >
 <ItemTemplate><b style="font-size: large; font-style: normal" class="nav-TypeBookList">
-<a href="/BookList.aspx?id=<%#: Item.CategoryID %>">
-<%#: Item.CategoryName %>
+<a href="/DANHMUCSP.aspx?id=<%#: Item.MALOAISP %>">
+<%#: Item.TENLOAISP %>
 </a>
 </b>
 </ItemTemplate>

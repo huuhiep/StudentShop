@@ -20,7 +20,7 @@ namespace StudentShop
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             // Initialize the book database.
-            Database.SetInitializer(new BookDatabaseInitializer());
+            Database.SetInitializer(new THONGTIN());
         }
     }
 }
